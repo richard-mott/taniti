@@ -1,0 +1,21 @@
+footer {
+    position: sticky;
+    bottom: 0;
+    background: #f2e394;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 0rem 1rem 1rem 1rem;
+    border-top: 1px solid #588c7e;
+}
+
+.footer-container p {
+    font-weight: bold;
+    margin: 0.5rem 0rem;
+}
+
+.footer-container ul > li {
+    margin: 0.25rem 0rem 0.25rem 1rem;
+}
