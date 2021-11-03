@@ -1,0 +1,42 @@
+header {
+    position: sticky;
+    top: 0;
+    background: #f2e394;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #588c7e;
+}
+
+.header-logo {
+    flex-shrink: 0;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.main-nav > li {
+    margin-left: 1.5rem;
+}
+
+.main-nav > li > a {
+    text-decoration: none;
+    color: #588c7e;
+}
+
+.main-nav > li > a:hover {
+    text-decoration: underline;
+    color: #d96459;
+}
