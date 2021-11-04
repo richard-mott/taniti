@@ -1,4 +1,3 @@
-
 .slides-container {
     display: flex;
     flex-direction: row;
@@ -43,12 +42,12 @@
 
 .home-links-heading {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 .home-links-heading > a {
     margin-left: auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .home-links-item {

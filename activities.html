@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="styles/header.css" />
     <link rel="stylesheet" type="text/css" href="styles/content.css" />
     <link rel="stylesheet" type="text/css" href="styles/footer.css" />
-    <link rel="stylesheet" type="text/css" href="styles/home.css" />
+    <link rel="stylesheet" type="text/css" href="styles/activities.css" />
 </head>
 <body>
     <header>
@@ -21,9 +21,9 @@
             </div>
             <nav class="header-nav">
                 <ul class="main-nav link-list">
-                    <li class="current-page">Home</li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="events.html">Events</a></li>
-                    <li><a href="activities.html">Activities</a></li>
+                    <li class="current-page">Activities</li>
                     <li><a href="food.html">Food</a></li>
                     <li><a href="lodging.html">Lodging</a></li>
                     <li><a href="travel.html">Travel</a></li>
@@ -34,15 +34,10 @@
     </header>
     
     <div class="body-content">
-        <div class="slides-container">
-            <div class="slide-image public-image">
+        <div class="activity-container">
+            <div class="activity-content">
                 <img src="images/beach.jpg" />
-                <p>Image by Sean Oulashin (via
-                    <a href="https://unsplash.com/photos/KMn4VEeEPR8">Unsplash.com</a>)
-                </p>
-            </div>
-            <div class="slide-content">
-                <h1>Welcome to Taniti!</h1>
+                <h1>Sightseeing</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -64,15 +59,14 @@
                     laborum.
                 </p>
             </div>
+            <a href="activities/sightseeing.html" class="button-link">
+                Find Out More
+            </a>
         </div>
-        <div class="news-container">
-            <div class="home-links-heading">
-                <h1>News</h1>
-                <a href="news.html" class="button-link">View All</a>
-            </div>
-            <div class="home-links-item">
-                <hr />
-                <h2>Family Finds Fossil on Beach</h2>
+        <div class="activity-container">
+            <div class="activity-content">
+                <img src="images/beach.jpg" />
+                <h1>Night Life</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -83,11 +77,6 @@
                     proident, sunt in culpa qui officia deserunt mollit anim id est
                     laborum.
                 </p>
-                <a href="placeholder.html">Read more</a>
-            </div>
-            <div class="home-links-item">
-                <hr />
-                <h2>Grand Opening of New Golf Course</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -98,47 +87,15 @@
                     proident, sunt in culpa qui officia deserunt mollit anim id est
                     laborum.
                 </p>
-                <a href="placeholder.html">Read more</a>
             </div>
-            <div class="home-links-item">
-                <hr />
-                <h2>Dignitary Visits Volcano</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.
-                </p>
-                <a href="placeholder.html">Read more</a>
-            </div>
-            <div class="home-links-item">
-                <hr />
-                <h2>Dicovery Day Celebration Begins</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.
-                </p>
-                <a href="placeholder.html">Read more</a>
-            </div>
+            <a href="activities/night-life.html" class="button-link">
+                Find Out More
+            </a>
         </div>
-        <div class="events-container">
-            <div class="home-links-heading">
-                <h1>Events</h1>
-                <a href="events.html" class="button-link">View All</a>
-            </div>
-            <div class="home-links-item">
-                <hr />
-                <h2>Dicovery Day: Grand Parade</h2>
+        <div class="activity-container">
+            <div class="activity-content">
+                <img src="images/beach.jpg" />
+                <h1>Events and Activities</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -149,11 +106,6 @@
                     proident, sunt in culpa qui officia deserunt mollit anim id est
                     laborum.
                 </p>
-                <a href="placeholder.html">Read more</a>
-            </div>
-            <div class="home-links-item">
-                <hr />
-                <h2>Discovery Day: Street Carnival</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -164,11 +116,15 @@
                     proident, sunt in culpa qui officia deserunt mollit anim id est
                     laborum.
                 </p>
-                <a href="placeholder.html">Read more</a>
             </div>
-            <div class="home-links-item">
-                <hr />
-                <h2>Golf Course Grand Opening</h2>
+            <a href="activities/events-activities.html" class="button-link">
+                Find Out More
+            </a>
+        </div>
+        <div class="activity-container">
+            <div class="activity-content">
+                <img src="images/beach.jpg" />
+                <h1>Kid-Friendly Activities</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -179,11 +135,6 @@
                     proident, sunt in culpa qui officia deserunt mollit anim id est
                     laborum.
                 </p>
-                <a href="placeholder.html">Read more</a>
-            </div>
-            <div class="home-links-item">
-                <hr />
-                <h2>Discovery Day: Beach Festival</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -194,8 +145,10 @@
                     proident, sunt in culpa qui officia deserunt mollit anim id est
                     laborum.
                 </p>
-                <a href="placeholder.html">Read more</a>
             </div>
+            <a href="activities/kid-friendly-activities.html" class="button-link">
+                Find Out More
+            </a>
         </div>
     </div>
 </body>
