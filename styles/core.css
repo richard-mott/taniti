@@ -9,6 +9,10 @@ body {
     background: #6DB9D5;
 }
 
+body:last-child {
+    margin-bottom: 1rem;
+}
+
 /* LINKS */
 a {
     color: #072E74;
@@ -64,4 +68,20 @@ h1, h2 {
 /* MISC */
 hr {
     border-color: #072E74;
+}
+
+/* PUBLIC IMAGES */
+.public-image {
+    min-width: 65%;
+}
+
+.public-image > img {
+    max-width: 100%;
+    border: 1px solid #072E74;
+}
+
+.public-image > p {
+    font-size: 0.8rem;
+    text-align: right;
+    margin: 0.25rem;
 }
