@@ -1,0 +1,33 @@
+.lodging-locations-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+}
+
+.lodging-type > h1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.lodging-location {
+    border: 1px solid #6DB9D5;
+}
+
+.lodging-location img {
+    border-width: 0px;
+    border-bottom: 1px solid #6DB9D5;
+}
+
+.lodging-location > h2 {
+    margin: 0.5rem;
+    margin-top: 1rem;
+}
+
+.lodging-location > p {
+    margin: 0.5rem;
+}
+
+.lodging-location > .button-link {
+    width: 35%;
+    margin: 1rem auto;
+}
