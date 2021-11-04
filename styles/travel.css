@@ -1,0 +1,33 @@
+.travel-agencies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+}
+
+.travel-type > h1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.travel-agency {
+    border: 1px solid #6DB9D5;
+}
+
+.travel-agency img {
+    border-width: 0px;
+    border-bottom: 1px solid #6DB9D5;
+}
+
+.travel-agency > h2 {
+    margin: 0.5rem;
+    margin-top: 1rem;
+}
+
+.travel-agency > p {
+    margin: 0.5rem;
+}
+
+.travel-agency > .button-link {
+    width: 35%;
+    margin: 1rem auto;
+}
