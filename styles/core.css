@@ -18,6 +18,21 @@ a:hover {
     color: #A4C100;
 }
 
+.button-link {
+    display: block;
+    width: 20%;
+    border: 1px solid #072E74;
+    background: #6DB9D5;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.button-link:hover {
+    background: #A4C100;
+    color: #FFF8D8;
+}
+
 /* LINK LISTS */
 .link-list {
     list-style: none;

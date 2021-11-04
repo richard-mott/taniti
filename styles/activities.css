@@ -1,0 +1,28 @@
+.activity-container {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #072E74;
+    background: #FFF8D8;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.activity-content {
+    width: 100%;
+}
+
+.activity-content > h1 {
+    font-size: 1.75rem;
+}
+
+.activity-content > img {
+    float: right;
+    width: 45%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #072E74;
+}
+
+.activity-container > .button-link {
+    margin: auto auto 0 auto;
+}

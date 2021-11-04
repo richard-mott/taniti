@@ -38,3 +38,8 @@ nav {
 .main-nav > li > a:hover {
     color: #FFF8D8;
 }
+
+.current-page {
+    color: #072E74;
+    border-bottom: 1px solid #072E74;
+}
