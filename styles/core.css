@@ -3,11 +3,19 @@ html {
 }
 
 body {
-    margin: 0;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
-    background: #f2e394;
+    background: #6DB9D5;
+}
+
+/* LINKS */
+a {
+    color: #072E74;
+}
+
+a:hover {
+    color: #A4C100;
 }
 
 /* LINK LISTS */
@@ -24,10 +32,21 @@ body {
 
 .link-list > li > a {
     text-decoration: none;
-    color: #588c7e;
+    color: #072E74;
 }
 
 .link-list > li > a:hover {
     text-decoration: underline;
-    color: #ff6f69;
+    color: #6DB9D5;
+}
+
+/* HEADERS */
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* MISC */
+hr {
+    border-color: #072E74;
 }

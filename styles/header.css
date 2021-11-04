@@ -1,13 +1,13 @@
 header {
     position: sticky;
     top: 0;
-    background: #f2e394;
+    background: #6DB9D5;
 }
 
 .nav-container {
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid #588c7e;
+    border-bottom: 1px solid #072E74;
 }
 
 .header-logo {
@@ -32,11 +32,9 @@ nav {
 }
 
 .main-nav > li > a {
-    text-decoration: none;
-    color: #588c7e;
+    color: #072E74;
 }
 
 .main-nav > li > a:hover {
-    text-decoration: underline;
-    color: #d96459;
+    color: #FFF8D8;
 }
