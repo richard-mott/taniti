@@ -1,0 +1,33 @@
+.food-locations-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+}
+
+.food-type > h1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.food-location {
+    border: 1px solid #6DB9D5;
+}
+
+.food-location img {
+    border-width: 0px;
+    border-bottom: 1px solid #6DB9D5;
+}
+
+.food-location > h2 {
+    margin: 0.5rem;
+    margin-top: 1rem;
+}
+
+.food-location > p {
+    margin: 0.5rem;
+}
+
+.food-location > .button-link {
+    width: 35%;
+    margin: 1rem auto;
+}

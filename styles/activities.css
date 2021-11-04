@@ -1,14 +1,13 @@
 .activity-container {
-    margin-top: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #072E74;
-    background: #FFF8D8;
     display: flex;
     flex-wrap: wrap;
 }
 
-.activity-content {
-    width: 100%;
+.activity-content > .public-image {
+    width: 45%;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 0rem;
 }
 
 .activity-content > h1 {
