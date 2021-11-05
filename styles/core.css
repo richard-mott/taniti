@@ -130,3 +130,12 @@ hr {
     text-align: right;
     margin: 0.25rem;
 }
+
+/* TABLE COLUMNS */
+.column-1 {
+    width: 25%;
+}
+
+.column-2 {
+    width: 70%;
+}
