@@ -2,6 +2,7 @@ header {
     position: sticky;
     top: 0;
     background: #6DB9D5;
+    width: 100%;
 }
 
 .nav-container {
