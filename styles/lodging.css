@@ -11,6 +11,9 @@
 
 .lodging-location {
     border: 1px solid #6DB9D5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .lodging-location img {
@@ -19,8 +22,7 @@
 }
 
 .lodging-location > h2 {
-    margin: 0.5rem;
-    margin-top: 1rem;
+    margin: 1rem 0.5rem 0rem 0.5rem;
 }
 
 .lodging-location > p {
@@ -29,5 +31,18 @@
 
 .lodging-location > .button-link {
     width: 35%;
-    margin: 1rem auto;
+    margin: auto auto 0.5rem auto;
+}
+
+.lodging-details {
+    margin: 0.5rem;
+    table-layout: fixed;
+}
+
+.lodging-details td {
+    vertical-align: text-top;
+}
+
+.row-title > strong {
+    color: #072E74;
 }

@@ -31,3 +31,18 @@
     width: 35%;
     margin: 1rem auto;
 }
+
+
+.travel-details {
+    margin: 0.5rem;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.travel-details td {
+    vertical-align: text-top;
+}
+
+.row-title > strong {
+    color: #072E74;
+}
