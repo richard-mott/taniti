@@ -5,6 +5,10 @@
     margin-top: 1rem;
 }
 
+.slides-container > .public-image {
+    min-width: 65%;
+}
+
 .slide-content {
     margin-left: 1rem;
 }
