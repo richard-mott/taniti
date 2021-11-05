@@ -31,3 +31,11 @@
     width: 35%;
     margin: 1rem auto;
 }
+
+.food-details {
+    margin: 1rem 0.5rem;
+}
+
+.row-title > strong {
+    color: #072E74;
+}
