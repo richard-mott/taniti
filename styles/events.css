@@ -10,15 +10,7 @@
     width: 100%;
 }
 
-.event-details-table {
+.event-details {
     font-size: 1.25rem;
     margin: 1rem 0rem 0rem 1rem;
-}
-
-.row-title {
-    padding-right: 1rem;
-}
-
-.row-title > strong {
-    color: #072E74;
 }

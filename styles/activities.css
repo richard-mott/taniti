@@ -25,3 +25,20 @@
 .activity-container > .button-link {
     margin: auto auto 0 auto;
 }
+
+.activity-details-container > .public-image {
+    min-width: 50%;
+    width: 50%;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.activity-details-container > .public-image > img {
+    width: 100%;
+}
+
+.activity-details {
+    font-size: 1.25rem;
+    margin: 1rem 0rem 0rem 1rem;
+}
