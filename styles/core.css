@@ -131,11 +131,19 @@ hr {
     margin: 0.25rem;
 }
 
-/* TABLE COLUMNS */
+/* TABLES */
 .column-1 {
     width: 25%;
 }
 
 .column-2 {
     width: 70%;
+}
+
+.row-title {
+    padding-right: 1rem;
+}
+
+.row-title > strong {
+    color: #072E74;
 }
