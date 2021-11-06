@@ -1,0 +1,28 @@
+.news-large > h1 {
+    border-bottom: 1px solid #072E74;
+}
+
+.news-large > .public-image {
+    float: right;
+    width: 40%;
+    margin: 0rem 0rem 1rem 1rem;
+}
+
+.news-large > a {
+    display: block;
+    text-align: right;
+}
+
+.news-small > h1 {
+    border-bottom: 1px solid #072E74;
+}
+
+.news-small > a {
+    display: block;
+    text-align: right;
+}
+
+.byline {
+    margin-top: 0.5rem;
+    text-align: right;
+}
